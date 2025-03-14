@@ -1,6 +1,7 @@
 extern crate rand;
 use rand::Rng;
 use std::cmp::Ordering;
+mod enums;
 mod ownership;
 mod structs;
 
@@ -50,6 +51,7 @@ fn main() {
     // ---- other chapters-----
     ownership::main();
     structs::main();
+    enums::main();
 }
 
 fn second_function(x: u32, y: u32) {
